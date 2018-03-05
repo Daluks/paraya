@@ -18,6 +18,6 @@ public class HornetqReceiver
     @JmsListener(destination = "OrdersQueue")
     public void receiveMessage()
     {
-        
+        System.out.println("Test");
     }
 }
